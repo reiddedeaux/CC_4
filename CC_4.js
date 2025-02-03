@@ -86,3 +86,13 @@ let discountPrice = applyDiscount (100,10)
 
 console.log(`Discounted Price: $${discountPrice}`); // logging the discounted price after using the discount function
 
+
+//Task 10 Loyalty Points
+
+const calculatePoints = (purchaseAmount) => {
+    return (purchaseAmount / 10);
+
+};
+let points = calculatePoints(100);
+
+console.log(`Loyalty points: ${points}`); //logging a function that calculate the loyalty points into the console
