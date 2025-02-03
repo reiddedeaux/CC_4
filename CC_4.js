@@ -1,4 +1,4 @@
-//Task If Statememts
+//Task Customer Discounts
 
 let purchaseAmount = 150; // how much the purchase is
 let finalAmount = purchaseAmount; // The amount after discount is applied
@@ -10,7 +10,7 @@ if (purchaseAmount > 100) {
 
 console.log(`Final amount after discount: $${finalAmount}`); // Logging the amount into the console
 
-//Task 2 For loop
+//Task 2 Sales report
 
 let sales = [120, 85, 200, 150, 90]; // array of sales
 let totalSales = 0;
@@ -21,7 +21,7 @@ for (let i = 0; i < sales.length; i++){
 
 console.log(`Total Sales: $${totalSales}`); // logging total sales into the console
 
-// Task 3 While loop
+// Task 3 Inventory Depletion
 
 let stock = 10; //Stock currently
 
@@ -31,3 +31,12 @@ while (stock > 0){
 } // a system that counts down from ten to 0
 
 console.log("Stock is Gone") //Putting the system into the console
+
+//Task 4 Customer Survey
+
+let responses = 0; 
+do{
+    console.log(`Collect responses: ${responses}`);
+    responses++;
+}
+while (responses < 3)
