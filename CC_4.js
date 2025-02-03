@@ -61,3 +61,9 @@ for (let product of products){
     console.log(`Product: ${product}`); //logs the products into the console
 }
 
+//Task 7 Order processing
+
+let orders = [101, 102, 103]; //array of orders
+orders.forEach(order => {
+    console.log(`order ID: ${order}`)
+}) //logging orders of ids into the console
