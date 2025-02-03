@@ -40,3 +40,17 @@ do{
     responses++;
 }
 while (responses < 3)
+    //customer survey form that limits at 3 responses using the do while format
+
+// Task 5 Employee Information
+
+let employee = {
+    name: "Alice",
+    position: "Manager",
+    salary: 75000
+} ;// employees information
+
+for (let key in employee){
+    console.log(`${key}: ${employee[key]}`);
+} //All the properties of the employee object and logs each key value pair to the console.
+
