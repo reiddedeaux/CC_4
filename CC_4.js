@@ -54,3 +54,10 @@ for (let key in employee){
     console.log(`${key}: ${employee[key]}`);
 } //All the properties of the employee object and logs each key value pair to the console.
 
+// Task 6 Product Listings
+
+let products = ["Laptop", "Mouse", "Keyboard"]; // the list of products
+for (let product of products){
+    console.log(`Product: ${product}`); //logs the products into the console
+}
+
