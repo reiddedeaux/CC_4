@@ -8,5 +8,16 @@ if (purchaseAmount > 100) {
     console.log("Discount Applied")
 }
 
-console.log(`Final Amount After Discount is Applied: $${finalAmount}`); // Logging the amount into the console
+console.log(`Final amount after discount: $${finalAmount}`); // Logging the amount into the console
+
+//Task 2 For loop
+
+let sales = [120, 85, 200, 150, 90]; // array of sales
+let totalSales = 0;
+
+for (let i = 0; i < sales.length; i++){
+    totalSales += sales[i]
+} // Using a for loop to calculate total sales
+
+console.log(`Total Sales: $${totalSales}`); // logging total sales into the console
 
